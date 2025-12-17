@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Amadiaoha - Reloaded")
-		(rev "REV 1.0")
+		(rev "1.0")
 		(company "GeneMaris Technologies")
 		(comment 1 "Wall embedded Smart Switch")
 	)
@@ -6950,6 +6950,12 @@
 		(uuid "a18f660a-8318-40f5-8ada-f50ca3272c2e")
 	)
 	(junction
+		(at 103.632 185.166)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a34762a4-778f-4cbf-a198-e2211d9840a3")
+	)
+	(junction
 		(at 357.378 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6990,6 +6996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf48cc3f-784b-4458-a1c3-363bfff98c5d")
+	)
+	(junction
+		(at 118.872 185.166)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c56d9772-8b6f-4945-8558-872db9f1e32c")
 	)
 	(junction
 		(at 244.602 101.092)
@@ -7068,10 +7080,6 @@
 	(no_connect
 		(at 125.73 119.634)
 		(uuid "0625ec99-2a3c-4b23-95f3-37030cb51d64")
-	)
-	(no_connect
-		(at 125.73 142.494)
-		(uuid "091a8881-e99a-4c78-9c88-6acd754c7e8a")
 	)
 	(no_connect
 		(at 171.45 137.414)
@@ -7183,6 +7191,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.952 185.166) (xy 118.872 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f219fa-3442-4517-a67d-9cf37970a5de")
+	)
+	(wire
+		(pts
 			(xy 92.71 60.706) (xy 106.68 60.706)
 		)
 		(stroke
@@ -7290,6 +7308,16 @@
 			(type default)
 		)
 		(uuid "13ae99e4-847a-4053-b23b-146de2a45515")
+	)
+	(wire
+		(pts
+			(xy 118.872 191.516) (xy 115.062 191.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14149c39-0c2a-4f04-a14a-8f71b641ce63")
 	)
 	(wire
 		(pts
@@ -7500,6 +7528,26 @@
 			(type default)
 		)
 		(uuid "22700bdc-85a6-40c1-ad38-1b5e1b97fcec")
+	)
+	(wire
+		(pts
+			(xy 103.632 182.626) (xy 103.632 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2332ec8f-c373-4cb2-94c1-bb89523118f8")
+	)
+	(wire
+		(pts
+			(xy 103.632 185.166) (xy 103.632 191.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2364f6f8-a81a-4d10-88d6-0f6eded4f62a")
 	)
 	(wire
 		(pts
@@ -7983,6 +8031,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 142.494) (xy 125.73 142.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4edc9-ea7b-4895-a456-3e7600c3ee61")
+	)
+	(wire
+		(pts
 			(xy 189.23 117.094) (xy 189.23 122.174)
 		)
 		(stroke
@@ -8163,6 +8221,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.332 182.626) (xy 118.872 182.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb1ef15-baf7-4f0c-a5f2-d5bb3b210106")
+	)
+	(wire
+		(pts
 			(xy 244.602 101.092) (xy 236.982 101.092)
 		)
 		(stroke
@@ -8190,6 +8258,16 @@
 			(type default)
 		)
 		(uuid "5e803deb-3320-4cdb-95f5-3d3df20dfc4a")
+	)
+	(wire
+		(pts
+			(xy 103.632 185.166) (xy 97.282 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f069230-281c-4445-9756-41c69bd8ac45")
 	)
 	(wire
 		(pts
@@ -8493,6 +8571,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.872 182.626) (xy 118.872 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790fee1f-cbb1-40eb-b6b0-21dd8fd549cd")
+	)
+	(wire
+		(pts
 			(xy 229.362 101.092) (xy 236.982 101.092)
 		)
 		(stroke
@@ -8663,6 +8751,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.952 188.976) (xy 123.952 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86399ee5-fb62-42f7-9a50-76f347212ba1")
+	)
+	(wire
+		(pts
 			(xy 92.456 170.434) (xy 110.998 170.434)
 		)
 		(stroke
@@ -8720,6 +8818,16 @@
 			(type default)
 		)
 		(uuid "8b373b17-dd5a-4fd1-98a2-ad4ac3170ab9")
+	)
+	(wire
+		(pts
+			(xy 106.172 182.626) (xy 103.632 182.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc90cdd-1552-4af7-b1e2-dc5ff3c4a477")
 	)
 	(wire
 		(pts
@@ -8960,6 +9068,26 @@
 			(type default)
 		)
 		(uuid "a31898b2-85c6-4060-8141-51d234cb50ad")
+	)
+	(wire
+		(pts
+			(xy 106.172 185.166) (xy 103.632 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31fd79f-185a-46de-ab4d-7a004d0750da")
+	)
+	(wire
+		(pts
+			(xy 118.872 185.166) (xy 118.872 191.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cd0f2a-8e43-44ab-b49d-5e4e64472c22")
 	)
 	(wire
 		(pts
@@ -9781,6 +9909,16 @@
 		)
 		(uuid "dec21685-65a7-483a-998d-e52bc5189e19")
 	)
+	(wire
+		(pts
+			(xy 103.632 191.516) (xy 107.442 191.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1ed0c5-56b3-41b0-b2be-8b58b9fce7f1")
+	)
 	(polyline
 		(pts
 			(xy 283.718 78.232) (xy 283.718 165.354)
@@ -9880,6 +10018,16 @@
 			(type default)
 		)
 		(uuid "e6f40fad-200d-47af-add0-dacfdb6c4487")
+	)
+	(wire
+		(pts
+			(xy 118.872 185.166) (xy 116.332 185.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8896e81-42aa-4bc5-8349-93fb8022f666")
 	)
 	(wire
 		(pts
@@ -10351,6 +10499,16 @@
 		)
 		(uuid "7d31c9f5-7348-4d9b-901a-eca8ace79b4e")
 	)
+	(label "Pair"
+		(at 97.282 185.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f0ee9e2-9d5a-43f9-9042-de8116e251fb")
+	)
 	(label "LOAD_EN"
 		(at 36.068 180.848 0)
 		(effects
@@ -10520,6 +10678,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1902b82-dc22-443c-b920-d29a3837471b")
+	)
+	(label "Pair"
+		(at 114.3 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7234e85-b078-4d84-b462-119575f52399")
 	)
 	(label "IC1_SDA"
 		(at 86.36 120.142 180)
@@ -11275,6 +11443,155 @@
 			(project "Amadioha"
 				(path "/2c9290c9-195d-45b7-9721-51ab7f526a35"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.252 191.516 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24318cc9-9172-4e1d-bb79-4e53ca4a7f66")
+		(property "Reference" "C21"
+			(at 110.744 188.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0u1"
+			(at 111.252 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 107.442 190.5508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "H" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C149621"
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATION-FORCE" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 111.252 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bed829cd-fdee-4f6e-a2a1-68a468292644")
+		)
+		(pin "1"
+			(uuid "b819d037-a895-4ff0-b249-e35db56ddea7")
+		)
+		(instances
+			(project "Amadioha"
+				(path "/2c9290c9-195d-45b7-9721-51ab7f526a35"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17760,6 +18077,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 123.952 188.976 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6849a53-f1bc-4bfa-bd27-06d92aaf29e5")
+		(property "Reference" "#PWR021"
+			(at 123.952 195.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.952 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.952 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.952 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.952 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672f688a-4dfc-423c-97c9-06e51ae3c294")
+		)
+		(instances
+			(project "Amadioha"
+				(path "/2c9290c9-195d-45b7-9721-51ab7f526a35"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 260.35 22.606 0)
 		(unit 1)
@@ -17906,6 +18291,99 @@
 			(project "Amadioha"
 				(path "/2c9290c9-195d-45b7-9721-51ab7f526a35"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5E")
+		(at 111.252 185.166 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe843e0-09c4-41dc-a77d-5b7e011dec2f")
+		(property "Reference" "SW2"
+			(at 111.252 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS815"
+			(at 111.252 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PS815_SJK:PTS815SJK250SMTRLFS"
+			(at 111.252 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 111.252 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 111.252 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C411883"
+			(at 111.252 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.252 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c39302f8-953e-4f28-a8b4-b18dd14147da")
+		)
+		(pin "3"
+			(uuid "76f0959a-36f7-40f5-9d11-7abec2d0a484")
+		)
+		(pin "2"
+			(uuid "9bc83a16-a12d-4b2d-a751-0ca62d1fa8fc")
+		)
+		(pin "1"
+			(uuid "c75a10d0-43ca-4739-9627-09ff187e1dd6")
+		)
+		(instances
+			(project "Amadioha"
+				(path "/2c9290c9-195d-45b7-9721-51ab7f526a35"
+					(reference "SW2")
 					(unit 1)
 				)
 			)

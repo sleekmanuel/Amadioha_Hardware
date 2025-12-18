@@ -12077,7 +12077,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30060cb2-2e13-4eb1-a451-aec7b3164656")
@@ -17078,7 +17078,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b06d8ee6-71be-4ee6-bfc3-8bf18c7d3da3")
 		(property "Reference" "L1"

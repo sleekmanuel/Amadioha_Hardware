@@ -5,8 +5,8 @@
 	(uuid "2c9290c9-195d-45b7-9721-51ab7f526a35")
 	(paper "A4")
 	(title_block
-		(title "Amadiaoha - Reloaded")
-		(rev "1.0")
+		(title "Amadiaoha")
+		(rev "2025.1.0")
 		(company "GeneMaris Technologies")
 		(comment 1 "Wall embedded Smart Switch")
 	)
@@ -6385,8 +6385,8 @@
 		(uuid d7067b41-d651-4950-a4fa-153fabe93c78)
 	)
 	(rectangle
-		(start 208.788 14.224)
-		(end 283.972 72.136)
+		(start 135.128 17.018)
+		(end 210.312 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -6444,7 +6444,7 @@
 	)
 	(text "switch terminal 1"
 		(exclude_from_sim no)
-		(at 252.73 31.75 0)
+		(at 179.07 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,8 +6512,8 @@
 		(uuid "59b92ae1-fa03-47fb-bf52-0c6566092334")
 	)
 	(text "Digikey #: 1528-2542-ND"
-		(exclude_from_sim no)
-		(at 240.792 20.32 0)
+		(exclude_from_sim yes)
+		(at 167.132 23.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6556,7 +6556,7 @@
 	)
 	(text "Push Button and LED Ring.\n"
 		(exclude_from_sim no)
-		(at 233.934 16.51 0)
+		(at 160.274 19.304 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6619,7 +6619,7 @@
 	)
 	(text "LED terminal 1 (C)"
 		(exclude_from_sim no)
-		(at 220.218 23.368 0)
+		(at 146.558 26.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,13 +6629,25 @@
 	)
 	(text "switch terminal 2"
 		(exclude_from_sim no)
-		(at 237.236 61.214 0)
+		(at 163.576 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "f908596d-e147-44a5-be43-223e52df2859")
+	)
+	(text "${TITLE} ${REVISION}"
+		(exclude_from_sim no)
+		(at 258.572 33.782 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "fdd40e8c-7b9b-4e26-90f3-ab4c5b3ae278")
 	)
 	(junction
 		(at 236.982 88.392)
@@ -6722,7 +6734,7 @@
 		(uuid "379b8bf4-043f-42dd-9607-b3c58e3e317e")
 	)
 	(junction
-		(at 218.694 52.832)
+		(at 145.034 55.626)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a7a7f97-32eb-4764-b50e-5ba59788fd53")
@@ -6746,7 +6758,7 @@
 		(uuid "47bbb4e3-1b42-49b5-9010-51e74d81e91b")
 	)
 	(junction
-		(at 228.346 41.148)
+		(at 154.686 43.942)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49b58360-ad74-48d1-9a12-2a4cbff49e9a")
@@ -6914,7 +6926,7 @@
 		(uuid "8bbed66b-7994-4298-b522-b39aaf88e596")
 	)
 	(junction
-		(at 266.446 50.292)
+		(at 192.786 53.086)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93511aea-40b2-4326-a0cb-a17cb970b697")
@@ -7411,7 +7423,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 57.658) (xy 247.142 57.658)
+			(xy 170.18 60.452) (xy 173.482 60.452)
 		)
 		(stroke
 			(width 0)
@@ -7501,7 +7513,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 41.148) (xy 237.236 41.148)
+			(xy 176.53 43.942) (xy 163.576 43.942)
 		)
 		(stroke
 			(width 0)
@@ -7951,7 +7963,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.346 41.148) (xy 226.314 41.148)
+			(xy 154.686 43.942) (xy 152.654 43.942)
 		)
 		(stroke
 			(width 0)
@@ -8451,7 +8463,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 32.512) (xy 218.694 36.068)
+			(xy 145.034 35.306) (xy 145.034 38.862)
 		)
 		(stroke
 			(width 0)
@@ -8471,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.446 50.292) (xy 266.446 52.578)
+			(xy 192.786 53.086) (xy 192.786 55.372)
 		)
 		(stroke
 			(width 0)
@@ -8551,7 +8563,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.762 57.658) (xy 258.826 57.658)
+			(xy 181.102 60.452) (xy 185.166 60.452)
 		)
 		(stroke
 			(width 0)
@@ -8661,7 +8673,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.346 41.148) (xy 229.616 41.148)
+			(xy 154.686 43.942) (xy 155.956 43.942)
 		)
 		(stroke
 			(width 0)
@@ -8901,7 +8913,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.446 36.83) (xy 266.446 38.354)
+			(xy 192.786 39.624) (xy 192.786 41.148)
 		)
 		(stroke
 			(width 0)
@@ -9091,7 +9103,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 52.832) (xy 218.694 46.228)
+			(xy 145.034 55.626) (xy 145.034 49.022)
 		)
 		(stroke
 			(width 0)
@@ -9501,7 +9513,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.446 67.056) (xy 266.446 62.738)
+			(xy 192.786 69.85) (xy 192.786 65.532)
 		)
 		(stroke
 			(width 0)
@@ -9521,7 +9533,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.346 52.832) (xy 218.694 52.832)
+			(xy 154.686 55.626) (xy 145.034 55.626)
 		)
 		(stroke
 			(width 0)
@@ -9841,7 +9853,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.446 50.292) (xy 282.956 50.292)
+			(xy 192.786 53.086) (xy 209.296 53.086)
 		)
 		(stroke
 			(width 0)
@@ -9881,7 +9893,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 22.606) (xy 260.35 24.384)
+			(xy 186.69 25.4) (xy 186.69 27.178)
 		)
 		(stroke
 			(width 0)
@@ -9941,7 +9953,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.346 51.308) (xy 228.346 52.832)
+			(xy 154.686 54.102) (xy 154.686 55.626)
 		)
 		(stroke
 			(width 0)
@@ -10061,7 +10073,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.346 43.688) (xy 228.346 41.148)
+			(xy 154.686 46.482) (xy 154.686 43.942)
 		)
 		(stroke
 			(width 0)
@@ -10221,7 +10233,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.446 45.974) (xy 266.446 50.292)
+			(xy 192.786 48.768) (xy 192.786 53.086)
 		)
 		(stroke
 			(width 0)
@@ -10241,7 +10253,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 52.832) (xy 218.694 56.134)
+			(xy 145.034 55.626) (xy 145.034 58.928)
 		)
 		(stroke
 			(width 0)
@@ -10530,7 +10542,7 @@
 		(uuid "91876d53-a060-40d7-bc02-c92dace1ff99")
 	)
 	(label "SWITCH_LED"
-		(at 250.19 41.148 180)
+		(at 176.53 43.942 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10600,7 +10612,7 @@
 		(uuid "bdf7148d-423a-4f2a-a40d-6fe52b19bf65")
 	)
 	(label "SWITCH_PB"
-		(at 282.956 50.292 180)
+		(at 209.296 53.086 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11216,7 +11228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 266.446 42.164 180)
+		(at 192.786 44.958 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11224,7 +11236,7 @@
 		(dnp no)
 		(uuid "20efcaa3-a8ce-4a4e-a216-6758d8743ebf")
 		(property "Reference" "R10"
-			(at 268.732 42.418 90)
+			(at 195.072 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11232,7 +11244,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 264.16 42.164 90)
+			(at 190.5 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,7 +11252,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 268.224 42.164 90)
+			(at 194.564 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11270,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11279,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +11288,7 @@
 			)
 		)
 		(property "shopping" "https://www.mouser.com/ProductDetail/Panasonic/ERA-6ARW182V?qs=sGAEpiMZZMtlubZbdhIBIJiMSTY83nT4sprpo6fBVAk="
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,7 +11297,7 @@
 			)
 		)
 		(property "JLCPCB Part#" ""
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +11306,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11315,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 266.446 42.164 0)
+			(at 192.786 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +11340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.952 57.658 90)
+		(at 177.292 60.452 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11337,7 +11349,7 @@
 		(dnp no)
 		(uuid "216deef2-0f1f-4a76-ac16-e0e13c1ed61d")
 		(property "Reference" "R13"
-			(at 251.206 59.944 90)
+			(at 177.546 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11357,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 251.46 55.118 90)
+			(at 177.8 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11365,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 250.952 55.88 90)
+			(at 177.292 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11374,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11383,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11392,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +11401,7 @@
 			)
 		)
 		(property "shopping" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-UP6F6490V?qs=sGAEpiMZZMtlubZbdhIBICtThL%2B6LvXHaH9EDADmMNs="
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11410,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C2758638 "
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +11419,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11428,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11437,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NQ05W8J0102T5E"
-			(at 250.952 57.658 0)
+			(at 177.292 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12248,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 260.35 26.924 180)
+		(at 186.69 29.718 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12244,7 +12256,7 @@
 		(dnp no)
 		(uuid "32557e63-2926-4940-80ef-a01e27ff0ceb")
 		(property "Reference" "H1"
-			(at 262.636 24.384 0)
+			(at 188.976 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12264,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 255.524 28.194 90)
+			(at 181.864 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12273,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 260.35 26.924 0)
+			(at 186.69 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 26.924 0)
+			(at 186.69 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12291,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 26.924 0)
+			(at 186.69 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +12300,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 260.35 26.924 0)
+			(at 186.69 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12483,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 218.694 29.972 0)
+		(at 145.034 32.766 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12479,7 +12491,7 @@
 		(dnp no)
 		(uuid "355ec73e-fe69-4b3d-9286-a4b627c240cd")
 		(property "Reference" "H3"
-			(at 219.202 25.4 0)
+			(at 145.542 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +12499,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 223.52 28.702 90)
+			(at 149.86 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +12508,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 218.694 29.972 0)
+			(at 145.034 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.694 29.972 0)
+			(at 145.034 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +12526,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 218.694 29.972 0)
+			(at 145.034 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12535,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 218.694 29.972 0)
+			(at 145.034 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12934,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 241.3 57.658 90)
+		(at 167.64 60.452 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12930,7 +12942,7 @@
 		(dnp no)
 		(uuid "44929ecd-bfd2-4d3c-a64c-f9e269fc9fe2")
 		(property "Reference" "H2"
-			(at 240.03 54.356 90)
+			(at 166.37 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +12950,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 240.03 52.832 90)
+			(at 166.37 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +12959,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 241.3 57.658 0)
+			(at 167.64 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,7 +12968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 57.658 0)
+			(at 167.64 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +12977,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 241.3 57.658 0)
+			(at 167.64 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +12986,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 241.3 57.658 0)
+			(at 167.64 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +13894,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 263.906 57.658 0)
+		(at 190.246 60.452 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13891,7 +13903,7 @@
 		(fields_autoplaced yes)
 		(uuid "579f2fcd-fe3c-49c8-8b33-e4f42bdc0a84")
 		(property "Reference" "Q2"
-			(at 270.256 56.3879 0)
+			(at 196.596 59.1819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +13912,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 270.256 58.9279 0)
+			(at 196.596 61.7219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +13921,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 268.986 59.563 0)
+			(at 195.326 62.357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +13932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 268.986 61.468 0)
+			(at 195.326 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13930,7 +13942,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 263.906 57.658 0)
+			(at 190.246 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15630,7 +15642,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.446 67.056 0)
+		(at 192.786 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15640,7 +15652,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cf1fc7d-e3ed-4145-8685-59d8dd6d67ec")
 		(property "Reference" "#PWR025"
-			(at 266.446 73.406 0)
+			(at 192.786 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +15661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.446 72.136 0)
+			(at 192.786 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +15670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.446 67.056 0)
+			(at 192.786 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +15679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.446 67.056 0)
+			(at 192.786 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,7 +15688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.446 67.056 0)
+			(at 192.786 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +15919,7 @@
 	)
 	(symbol
 		(lib_id "Lion:LOGO")
-		(at 168.148 44.196 0)
+		(at 250.444 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15916,7 +15928,7 @@
 		(fields_autoplaced yes)
 		(uuid "953cb4ff-b0b2-4648-85e4-aca341230cc7")
 		(property "Reference" "#G2"
-			(at 168.148 -22.7222 0)
+			(at 250.444 -40.2482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15925,7 +15937,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 168.148 111.1142 0)
+			(at 250.444 93.5882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15934,7 +15946,7 @@
 			)
 		)
 		(property "Footprint" "Lion:Lion"
-			(at 168.148 44.196 0)
+			(at 250.444 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15943,7 +15955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.148 44.196 0)
+			(at 250.444 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15952,7 +15964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.148 44.196 0)
+			(at 250.444 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15973,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 168.148 44.196 0)
+			(at 250.444 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,7 +16269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.694 56.134 0)
+		(at 145.034 58.928 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16267,7 +16279,7 @@
 		(fields_autoplaced yes)
 		(uuid "993a9594-470b-4cea-892b-732075e76a63")
 		(property "Reference" "#PWR027"
-			(at 218.694 62.484 0)
+			(at 145.034 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +16288,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.694 61.214 0)
+			(at 145.034 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.694 56.134 0)
+			(at 145.034 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,7 +16306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.694 56.134 0)
+			(at 145.034 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16303,7 +16315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.694 56.134 0)
+			(at 145.034 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,7 +16904,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.346 47.498 180)
+		(at 154.686 50.292 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16900,7 +16912,7 @@
 		(dnp no)
 		(uuid "aa62965f-b4d4-4794-bbb7-4c84e4d658be")
 		(property "Reference" "R11"
-			(at 230.632 47.752 90)
+			(at 156.972 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16908,7 +16920,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 226.06 47.498 90)
+			(at 152.4 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16916,7 +16928,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 230.124 47.498 90)
+			(at 156.464 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16925,7 +16937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16934,7 +16946,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16943,7 +16955,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16952,7 +16964,7 @@
 			)
 		)
 		(property "shopping" "https://www.mouser.com/ProductDetail/Panasonic/ERA-6ARW182V?qs=sGAEpiMZZMtlubZbdhIBIJiMSTY83nT4sprpo6fBVAk="
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16961,7 +16973,7 @@
 			)
 		)
 		(property "JLCPCB Part#" ""
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16970,7 +16982,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16979,7 +16991,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 228.346 47.498 0)
+			(at 154.686 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17078,7 +17090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06d8ee6-71be-4ee6-bfc3-8bf18c7d3da3")
 		(property "Reference" "L1"
@@ -17142,6 +17154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Untitled Field" ""
+			(at 200.66 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14cba35e-e47f-4d27-a60c-535e2195ca41")
 		)
@@ -17159,7 +17180,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.426 41.148 90)
+		(at 159.766 43.942 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17168,7 +17189,7 @@
 		(dnp no)
 		(uuid "b2f8689f-5738-401f-8323-18e2cda250cd")
 		(property "Reference" "R12"
-			(at 233.68 43.434 90)
+			(at 160.02 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17176,7 +17197,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 233.934 38.608 90)
+			(at 160.274 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17184,7 +17205,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 233.426 39.37 90)
+			(at 159.766 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17223,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17232,7 @@
 			)
 		)
 		(property "Untitled Field" ""
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17241,7 @@
 			)
 		)
 		(property "shopping" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-UP6F6490V?qs=sGAEpiMZZMtlubZbdhIBICtThL%2B6LvXHaH9EDADmMNs="
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17229,7 +17250,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C2758638 "
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17238,7 +17259,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17247,7 +17268,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17256,7 +17277,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NQ05W8J0102T5E"
-			(at 233.426 41.148 0)
+			(at 159.766 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,7 +17473,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 221.234 41.148 0)
+		(at 147.574 43.942 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17461,7 +17482,7 @@
 		(dnp no)
 		(uuid "b4db9471-6536-4195-8999-b3e94102c48b")
 		(property "Reference" "Q3"
-			(at 214.376 40.132 0)
+			(at 140.716 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17470,7 +17491,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 216.408 42.672 0)
+			(at 142.748 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17479,7 +17500,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 216.154 43.053 0)
+			(at 142.494 45.847 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17490,7 +17511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 216.154 44.958 0)
+			(at 142.494 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17500,7 +17521,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 221.234 41.148 0)
+			(at 147.574 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18146,7 +18167,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 260.35 22.606 0)
+		(at 186.69 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18154,7 +18175,7 @@
 		(dnp no)
 		(uuid "c98ced9b-b9ec-4e45-867b-3d2b6153a5cf")
 		(property "Reference" "#PWR026"
-			(at 260.35 26.416 0)
+			(at 186.69 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18163,7 +18184,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.096 18.288 0)
+			(at 186.436 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +18192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 22.606 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 22.606 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 22.606 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19638,7 +19659,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 266.446 36.83 0)
+		(at 192.786 39.624 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19646,7 +19667,7 @@
 		(dnp no)
 		(uuid "e6c73442-2cd3-43e8-ad8f-b2540c05d976")
 		(property "Reference" "#PWR024"
-			(at 266.446 40.64 0)
+			(at 192.786 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19655,7 +19676,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 33.02 0)
+			(at 193.04 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19663,7 +19684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.446 36.83 0)
+			(at 192.786 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19672,7 +19693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.446 36.83 0)
+			(at 192.786 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19681,7 +19702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.446 36.83 0)
+			(at 192.786 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)

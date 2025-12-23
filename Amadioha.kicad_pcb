@@ -10,7 +10,7 @@
 	(title_block
 		(title "Amadioha")
 		(date "2025-12-11")
-		(rev "1.0")
+		(rev "2025.1.0")
 		(company "GeneMaris Technologies")
 		(comment 1 "Wall embedded Smart Switch")
 		(comment 2 "Zigbee Node")
@@ -19682,7 +19682,7 @@
 		)
 	)
 	(gr_text "${TITLE} ${REVISION}"
-		(at 139.5 87 270)
+		(at 139.5 90.25 270)
 		(layer "B.SilkS")
 		(uuid "78b976d7-170c-4d18-b9ef-57199137b76a")
 		(effects

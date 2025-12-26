@@ -19655,7 +19655,7 @@
 		(uuid "8df7a4d5-def2-4bc5-ba3c-b5a03b8f647c")
 	)
 	(gr_text "${TITLE} ${REVISION}"
-		(at 94.5 96 0)
+		(at 92.75 95.5 0)
 		(layer "F.SilkS")
 		(uuid "53d57d38-b5d4-4eec-8a1c-3c38bd176cc8")
 		(effects

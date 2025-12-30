@@ -13343,11 +13343,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df37a0e-d66b-4b3f-a77e-ed3e2d7700e8")
 		(property "Reference" "C11"
-			(at 251.714 145.5419 0)
+			(at 251.46 145.5419 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,8 +13355,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1p2"
-			(at 251.714 148.0819 0)
+		(property "Value" "0p8"
+			(at 251.46 148.0819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,18 +14384,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bea995c-fd54-4806-b67b-5c8c3b1100ff")
 		(property "Reference" "L3"
-			(at 258.064 134.112 90)
+			(at 258.064 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3n6"
-			(at 258.064 136.652 90)
+		(property "Value" "3n3"
+			(at 258.064 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14481,7 +14480,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1p2"
+		(property "Value" "0p5"
 			(at 263.906 149.352 0)
 			(effects
 				(font

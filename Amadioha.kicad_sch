@@ -16097,8 +16097,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 115.824 0)
-		(mirror y)
+		(at 227.33 115.824 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16106,7 +16105,7 @@
 		(dnp no)
 		(uuid "96c9f349-7581-4ab4-a672-475ea7986a4e")
 		(property "Reference" "C9"
-			(at 226.568 113.792 0)
+			(at 226.568 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +16114,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 227.076 118.11 0)
+			(at 227.076 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16124,7 +16123,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 226.3648 119.634 0)
+			(at 226.3648 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
